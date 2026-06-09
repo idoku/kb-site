@@ -1,0 +1,16 @@
+[
+  {
+    "id": "resources-ai-notes-kb-publish-github-link-regression-f0e28f2f",
+    "path": "Resources/AI/Notes/kb-publish-github-link-regression.md",
+    "summary": "这是一篇用于验证 `fk publish` 飞书推送通知的测试条目。",
+    "tags": [
+      "kb",
+      "test",
+      "regression",
+      "github-link"
+    ],
+    "title": "KB 发布通知 GitHub 链接回归测试",
+    "type": "note",
+    "url": "notes/kb-publish-github-link-regression/"
+  }
+]
