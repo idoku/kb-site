@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-theme="docs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Style: Technical Design | KB</title>
+  <meta name="description" content="技术方案 架构设计 模块级改造说明 跨系统集成方案">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Style: Technical Design">
+  <meta property="og:description" content="技术方案 架构设计 模块级改造说明 跨系统集成方案">
+  <link rel="canonical" href="https://idoku.github.io/kb-site/writing/styles/technical-design/">
+  <link rel="stylesheet" href="../../../assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script defer src="../../../assets/search.js"></script>
+</head>
+<body data-search-index="../../../search-index.json">
+  <header class="site-header">
+    <div>
+      <a class="brand" href="../../../">KB</a>
+      <p class="muted">writing-style</p>
+    </div>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">Theme</button>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Public notes">
+      <input class="search" type="search" data-search-input placeholder="Search public notes" aria-label="Search public notes">
+      <div class="search-results" data-search-results></div>
+      <a href="../../../">Index</a>
+    </aside>
+
+    <article class="content article">
+      <h1>Style: Technical Design</h1>
+      <p class="summary">技术方案 架构设计 模块级改造说明 跨系统集成方案</p>
+      <div class="article-body">
+        <h2 id="use-for">Use For</h2>
+<ul>
+<li>技术方案</li>
+<li>架构设计</li>
+<li>模块级改造说明</li>
+<li>跨系统集成方案</li>
+</ul>
+<h2 id="voice">Voice</h2>
+<ul>
+<li>直接、具体、可验证。</li>
+<li>先说明约束和取舍，再说明实现。</li>
+<li>避免营销式表达，避免抽象口号。</li>
+<li>用明确边界替代泛泛描述。</li>
+</ul>
+<h2 id="structure-preference">Structure Preference</h2>
+<ol>
+<li>背景和问题</li>
+<li>目标和非目标</li>
+<li>现状约束</li>
+<li>方案</li>
+<li>数据流或交互流</li>
+<li>风险和取舍</li>
+<li>验收标准</li>
+<li>后续工作</li>
+</ol>
+<h2 id="writing-rules">Writing Rules</h2>
+<ul>
+<li>每个关键决策要说明原因。</li>
+<li>每个流程尽量写成输入、处理、输出。</li>
+<li>涉及工具边界时，明确 owner。</li>
+<li>涉及长期资产时，说明写入位置和更新规则。</li>
+<li>不把“后面再说”作为设计结论。</li>
+</ul>
+<h2 id="review-questions">Review Questions</h2>
+<ul>
+<li>读者能不能知道谁负责什么？</li>
+<li>读者能不能按文档执行第一步？</li>
+<li>有没有把临时产物和长期资产混在一起？</li>
+<li>有没有明确不做什么？</li>
+</ul>
+      </div>
+      
+    </article>
+  </main>
+  <script>
+    window.addEventListener("load", () => {
+      if (window.hljs) window.hljs.highlightAll();
+    });
+  </script>
+</body>
+</html>

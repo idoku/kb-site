@@ -12,5 +12,50 @@
     "title": "KB 发布通知 GitHub 链接回归测试",
     "type": "note",
     "url": "notes/kb-publish-github-link-regression/"
+  },
+  {
+    "id": "resources-writing-readme-7b7a28ca",
+    "path": "Resources/Writing/README.md",
+    "summary": "`Resources/Writing` 是 KB 的写作资产层，保存可以跨项目复用的写作规范、结构模板、质量清单、样例和正式文档归档入口。",
+    "tags": [],
+    "title": "Writing Assets",
+    "type": "writing",
+    "url": "writing/readme/"
+  },
+  {
+    "id": "resources-writing-checklists-document-quality-4ebc4abd",
+    "path": "Resources/Writing/Checklists/document-quality.md",
+    "summary": "[ ] 标题能直接说明文档对象。 [ ] 背景说明了真实问题，而不是只描述想法。 [ ] 目标和非目标分开。 [ ] 关键名词首次出现时有解释或上下文。",
+    "tags": [],
+    "title": "Checklist: Document Quality",
+    "type": "writing-checklist",
+    "url": "writing/checklists/document-quality/"
+  },
+  {
+    "id": "resources-writing-examples-readme-80665ad8",
+    "path": "Resources/Writing/Examples/README.md",
+    "summary": "这里保存可复用的优秀样例和反例入口。",
+    "tags": [],
+    "title": "Writing Examples",
+    "type": "writing-example",
+    "url": "writing/examples/readme/"
+  },
+  {
+    "id": "resources-writing-styles-technical-design-6d69e28f",
+    "path": "Resources/Writing/Styles/technical-design.md",
+    "summary": "技术方案 架构设计 模块级改造说明 跨系统集成方案",
+    "tags": [],
+    "title": "Style: Technical Design",
+    "type": "writing-style",
+    "url": "writing/styles/technical-design/"
+  },
+  {
+    "id": "resources-writing-templates-design-doc-4d07c3f2",
+    "path": "Resources/Writing/Templates/design-doc.md",
+    "summary": "",
+    "tags": [],
+    "title": "Template: Design Document",
+    "type": "writing-template",
+    "url": "writing/templates/design-doc/"
   }
 ]

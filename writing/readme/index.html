@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-theme="docs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Writing Assets | KB</title>
+  <meta name="description" content="`Resources/Writing` 是 KB 的写作资产层，保存可以跨项目复用的写作规范、结构模板、质量清单、样例和正式文档归档入口。">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Writing Assets">
+  <meta property="og:description" content="`Resources/Writing` 是 KB 的写作资产层，保存可以跨项目复用的写作规范、结构模板、质量清单、样例和正式文档归档入口。">
+  <link rel="canonical" href="https://idoku.github.io/kb-site/writing/readme/">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script defer src="../../assets/search.js"></script>
+</head>
+<body data-search-index="../../search-index.json">
+  <header class="site-header">
+    <div>
+      <a class="brand" href="../../">KB</a>
+      <p class="muted">writing</p>
+    </div>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme">Theme</button>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Public notes">
+      <input class="search" type="search" data-search-input placeholder="Search public notes" aria-label="Search public notes">
+      <div class="search-results" data-search-results></div>
+      <a href="../../">Index</a>
+    </aside>
+
+    <article class="content article">
+      <h1>Writing Assets</h1>
+      <p class="summary">`Resources/Writing` 是 KB 的写作资产层，保存可以跨项目复用的写作规范、结构模板、质量清单、样例和正式文档归档入口。</p>
+      <div class="article-body">
+        <p><code>Resources/Writing</code> 是 KB 的写作资产层，保存可以跨项目复用的写作规范、结构模板、质量清单、样例和正式文档归档入口。</p>
+<h2 id="boundary">Boundary</h2>
+<p>KB 负责保存长期资产：</p>
+<ul>
+<li>风格规范</li>
+<li>文档模板</li>
+<li>质量清单</li>
+<li>优秀样例和反例</li>
+<li>可复用 prompt / playbook</li>
+<li>已确认具备长期价值的正式文档</li>
+</ul>
+<p>CLI <code>doc-writer</code> 负责执行：</p>
+<ul>
+<li>从 KB 读取写作资产</li>
+<li>读取当前项目上下文</li>
+<li>在当前项目生成、改写、评审文档</li>
+<li>把通用沉淀提议回 KB</li>
+</ul>
+<h2 id="directory">Directory</h2>
+<ul>
+<li><code>Styles/</code>：风格包。</li>
+<li><code>Templates/</code>：结构模板。</li>
+<li><code>Checklists/</code>：质量检查清单。</li>
+<li><code>Examples/</code>：优秀样例和反例入口。</li>
+<li><code>Docs/</code>：长期正式文档归档入口。</li>
+</ul>
+<h2 id="default-flow">Default Flow</h2>
+<pre><code class="language-text">
+其他项目请求写作资产
+  -&gt; KB 返回风格、模板、示例、checklist
+  -&gt; CLI 在当前项目生成文档
+  -&gt; 当前项目保存文档
+  -&gt; 只有通用资产经确认后回传 KB
+</code></pre>
+<p>默认不要把每篇业务文档都回传 KB。KB 只接收可复用、已脱敏、长期有价值的资产。</p>
+      </div>
+      
+    </article>
+  </main>
+  <script>
+    window.addEventListener("load", () => {
+      if (window.hljs) window.hljs.highlightAll();
+    });
+  </script>
+</body>
+</html>
